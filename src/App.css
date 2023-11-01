@@ -1,0 +1,224 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+#list:hover{
+   color: blue;
+   text-transform: uppercase;
+}
+  
+#from{
+   color: antiquewhite;
+   background-image: url(../public/assets/img/photo3.jpeg)
+   
+}
+
+.loading-spinner-container {
+   display: flex;
+   color: #f8f9fa;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: rgba(0, 0, 0, 0.5);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 7000;
+ }
+
+#list{
+
+   display: flex;
+}
+
+#back{
+   text-decoration: none;
+   border: 1px solid black;
+   padding: 10px 25px ;
+  margin-bottom: 40px;
+  
+  margin-top: 100px;
+  
+}
+
+#img{
+   /* background-image:linear-gradient(red,black); */
+    background-image: url(../public/assets/img/yello.jpeg);
+   
+}
+.p-toolbar {
+   background: #f8f9fa;
+   border: 1px solid #dee2e6;
+   padding: -23.75rem;
+   border-radius: 6px;
+   gap: 0.5rem;}
+
+   .two{
+      padding-top: 26px;
+      display: flex;
+      justify-content: space-between !important;
+      margin-left: 20px;
+   }
+.one{
+   padding-right: 20px;
+}
+
+.vis{
+   margin-top: 30px;
+   padding: 10px;
+}
+
+/* style.css */
+
+/* Example CSS styles */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+}
+
+.container {
+   /* max-width: 800px; */
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+  
+   cursor: pointer;
+}
+
+.button:hover {
+   background-color: #b30000;
+}
+
+.td{
+
+   color: #0f0f0f;
+}
+
+
+
+#nav{
+  box-shadow: -3px 1px 2px;
+  border: 0px solid rgb(22, 20, 21);
+   
+   
+ 
+}
+
+/* .input-field-show{
+   position: relative;
+ }
+ .show-password-button{
+  position: absolute;
+  margin-left: 446px;
+  top: 70%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transform: translateY(-60%);
+ } */
+
+ .show-password-button {
+   border: none;
+   background: none;
+   cursor: pointer;
+   outline: none;
+ }
+ 
+ .show-password-button:focus {
+   outline: none;
+ }
+ 
+ .show-password-button:hover {
+   color: #FFA500; /* Change color on hover, you can adjust it */
+ }
+ 
+
+
+ .input-field-show {
+   position: relative;
+ }
+ 
+ .input-field-show input {
+   padding-right: 40px; /* Ensure space for the button */
+ }
+ 
+ .show-password-button {
+   position: absolute;
+   /* top: 0%;  */
+   /* right: 10px;  */
+   transform: translateY(-100%); /* Center vertically */
+   background: none;
+   border: none;
+   cursor: pointer;
+   margin-left: 430px;
+ }
+ 
+ .error-message {
+   margin-top: 5px; /* Adjust as needed */
+ }
+.code{
+   padding: 10px 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 500;
+   font-size: large;
+   border-radius: 50px;
+   box-shadow: none;
+  
+}
+.code :hover{
+   
+   background-color: rgb(0, 247, 255);
+   
+}
+.body{
+  background-color: #333;
+
+ 
+}
+.img{
+   background-image: url(../public/assets/img/moon.jpg);
+   position: fixed;
+ background-repeat: repeat;
+ background-size: cover;
+ /* width: 1000px;
+ height: 1000px; */
+
+
+}
+.photo :hover{
+ background-color: #eef3f8;
+ color: #0a0909;
+}
+
+
+/* styles.css
+
+/* Style for the dropdown container */
+.dropdown-menu {
+   background-color: #333;
+ }
+ 
+ /* Style for the dropdown items */
+ .dropdown-menu .nav-link {
+   color: #fff;
+   padding: 10px 20px;
+ }
+ 
+ /* Add any other styles as needed */
+ 
+
+.email{
+   border: 2px solid rgb(158, 155, 155) !important;
+   /* background-color: #f3e3e3; */
+   
+}
